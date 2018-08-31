@@ -1,22 +1,258 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="thebotbox.customfont.MainActivity">
-
-    <TextView
-        android:id="@+id/tv_agency_r"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="This is a custom font library" />
+    android:orientation="vertical">
 
 
-    <TextView
-        android:id="@+id/tv_agency_b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="This is a custom font library" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/agency_r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : AGENCY | REGULAR"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/agency_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : AGENCY | BOLD"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/star_jedi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : STAR-JEDI"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/star_jedi_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : STAR-JEDI 1"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/machine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : machine"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/space_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : SPACE"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/astro_boy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : ASTRO BOY"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/metal_lord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : METAL LORD"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/saucer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : SAUCER"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/raider_crusader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : RAIDER CRUSADER"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/arkitech_l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : ARKITECH LIGHT"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/arkitech_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : ARKITECH MEDIUM"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/arkitech_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : ARKITECH BOLD"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+
+            <TextView
+                android:id="@+id/alien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : ALIEN CRUSADER"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/elektra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : ELEKTRA"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/vtks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : VTKS"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+            android:id="@+id/droid_nation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="This is a custom font library : DROID NATION"
+            android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/dameron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : DAMERON"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
