@@ -225,12 +225,12 @@
                 android:background="@color/color_grey" />
 
             <TextView
-            android:id="@+id/droid_nation"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="4dp"
-            android:text="This is a custom font library : DROID NATION"
-            android:textSize="@dimen/text_size" />
+                android:id="@+id/droid_nation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : DROID NATION"
+                android:textSize="@dimen/text_size" />
 
             <View
                 android:layout_width="match_parent"
@@ -250,7 +250,96 @@
                 android:layout_height="1dp"
                 android:background="@color/color_grey" />
 
+            <TextView
+                android:id="@+id/gorgeously_world"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : GORGEOUSLY WORLD"
+                android:textSize="@dimen/text_size" />
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/pacific"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : PACIFIC"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/motion_picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library : MOTION PICTURE"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/before_the_rain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library BEFORE RAIN"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/magnolia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library - Magnolia"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/always_forever"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library - Dancing Beat"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
+
+            <TextView
+                android:id="@+id/dancing_beat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="This is a custom font library - Always Forever"
+                android:textSize="@dimen/text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey" />
 
         </LinearLayout>
     </ScrollView>
