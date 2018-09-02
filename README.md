@@ -8,6 +8,7 @@ Library for using custom fonts divided into categories.
 #   To-Dos
 <ul>
 <li>Load custom fonts in library's raw folder</li>
+<li>create categories for accessing fonts</li>
 <li>Allow user to load custom fonts from project's assets folder</li>
 
 </ul>
