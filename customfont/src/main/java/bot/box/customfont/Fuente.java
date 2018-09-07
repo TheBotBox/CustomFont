@@ -71,4 +71,60 @@ public class Fuente {
         }
     }
 
+    /*
+    * BITMAP PIXEL Fuente
+    * */
+    public static class BITMAP_PIXEL {
+        public static Typeface karmatic(Context context) {
+            return FuenteFactory.load(R.raw.karmatic, context);
+        }
+
+        public static Typeface arcade(Context context) {
+            return FuenteFactory.load(R.raw.arcade, context);
+        }
+
+        public static Typeface vcr_osd(Context context) {
+            return FuenteFactory.load(R.raw.vcr_osd, context);
+        }
+
+        public static Typeface starmap(Context context) {
+            return FuenteFactory.load(R.raw.starmap, context);
+        }
+
+        public static Typeface sabo(Context context) {
+            return FuenteFactory.load(R.raw.sabo, context);
+        }
+    }
+
+    /*
+    * BLACKLETTER Fuente
+    **/
+    public static class BLACKLETTER {
+
+        public static Typeface blackknight(Context context) {
+            return FuenteFactory.load(R.raw.blackknight, context);
+        }
+
+        public static Typeface germania_shadow(Context context) {
+            return FuenteFactory.load(R.raw.germania_shadow, context);
+        }
+    }
+
+    /*
+    * CALLIGRAPHY Fuente
+    * */
+    public static class CALLIGRAPHY {
+        public static Typeface southern_aire(Context context) {
+            return FuenteFactory.load(R.raw.southern_aire, context);
+        }
+
+        public static Typeface magnolia(Context context) {
+            return FuenteFactory.load(R.raw.magnolia, context);
+        }
+
+        public static Typeface alex_brush(Context context) {
+            return FuenteFactory.load(R.raw.alex_brush, context);
+        }
+    }
+
 }
