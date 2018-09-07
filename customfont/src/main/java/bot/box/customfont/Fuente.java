@@ -1,46 +1,74 @@
 package bot.box.customfont;
 
 
+import android.content.Context;
+import android.graphics.Typeface;
+
 /**
  * Created by Barry Allen .
  * boxforbot@gmail.com
  */
 
 public class Fuente {
+    /*
+    * ALIEN Fuente
+    * */
+    public static class ALIEN {
+        public static Typeface alien_dude(Context context) {
+            return FuenteFactory.load(R.raw.aliendude, context);
+        }
 
-    public static class CALLIGRAPHY {
+        public static Typeface begok(Context context) {
+            return FuenteFactory.load(R.raw.begok, context);
+        }
+
+        public static Typeface daedra(Context context) {
+            return FuenteFactory.load(R.raw.daedra, context);
+        }
+
+        public static Typeface quirky_robot(Context context) {
+            return FuenteFactory.load(R.raw.quirky_robot, context);
+        }
+
+        public static Typeface kahles(Context context) {
+            return FuenteFactory.load(R.raw.kahles, context);
+        }
 
     }
 
-/*    public static class SCI_FI {
-
+    /*
+    * ANIMAL Fuente
+    * */
+    public static class ANIMAL {
+        public static Typeface zoologic(Context context) {
+            return FuenteFactory.load(R.raw.zoologic, context);
+        }
     }
 
-    public static class SERIF {
-    }
+    /*
+    * STENCIL Fuente
+    * */
+    public static class STENCIL {
 
-    public static class SQUARE {
-    }
+        public static Typeface black_ops(Context context) {
+            return FuenteFactory.load(R.raw.black_ops, context);
+        }
 
-    public static class TATTOO {
-    }
+        public static Typeface capture_small(Context context) {
+            return FuenteFactory.load(R.raw.capture_small, context);
+        }
 
-    public static class TRASH {
-    }
+        public static Typeface cut_outs(Context context) {
+            return FuenteFactory.load(R.raw.cut_outs, context);
+        }
 
-    public static class TYPEWRITER {
-    }
+        public static Typeface manchest(Context context) {
+            return FuenteFactory.load(R.raw.manchest, context);
+        }
 
-    public static class USA {
+        public static Typeface aero_matics(Context context) {
+            return FuenteFactory.load(R.raw.aero_matics, context);
+        }
     }
-
-    public static class VALENTINE {
-    }
-
-    public static class VARIOUS {
-    }
-
-    public static class WESTERN {
-    }*/
 
 }

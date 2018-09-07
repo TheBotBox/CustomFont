@@ -28,7 +28,7 @@ public class MainActivity extends BaseActivity {
     }
 
     private void loadOnViews() {
-        agency_r.setTypeface(Fuente.CALLIGRAPHY.abbeyline(this));
+        agency_r.setTypeface(Fuente.ANIMAL.zoologic(this));
 
     }
 
