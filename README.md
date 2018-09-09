@@ -10,6 +10,7 @@ Library for using custom fonts divided into categories.
 **[Implementation](#implementation)**   
 **[API Usage](#api-usage)**  
 **[Font Categories](#font-categories)**   
+**[To-do](#to-do)**    
 **[License](#license)**    
 
 
@@ -45,6 +46,11 @@ mTextView.setTypeface(Fuente.CALLIGRAPHY.magnolia(this));
 ```Fuente.STENCIL.manchest(this)```  
 ```Fuente.BITMAP_PIXEL.starmap(this)```  
 ```Fuente.CALLIGRAPHY.southern_aire(this)```  
+
+# To-do
+<ol>
+  <li>Adding new categories </li> 
+</ol> 
 
 #   License  
 ![alt tag](https://img.shields.io/github/license/mashape/apistatus.svg)  
