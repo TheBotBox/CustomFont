@@ -41,11 +41,11 @@ mTextView.setTypeface(Fuente.CALLIGRAPHY.magnolia(this));
 ```
 
 # Font Categories  
-```Fuente.ALIEN.alien_dude(this)```  
-```Fuente.ANIMAL.zoologic(this)```  
-```Fuente.STENCIL.manchest(this)```  
-```Fuente.BITMAP_PIXEL.starmap(this)```  
-```Fuente.CALLIGRAPHY.southern_aire(this)```  
+```Fuente.ALIEN```  
+```Fuente.ANIMAL```  
+```Fuente.STENCIL```  
+```Fuente.BITMAP_PIXEL```  
+```Fuente.CALLIGRAPHY```  
 
 # To-do
 <ol>
