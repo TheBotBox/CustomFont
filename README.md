@@ -50,6 +50,7 @@ mTextView.setTypeface(Fuente.CALLIGRAPHY.magnolia(this));
 # To-do
 <ol>
   <li>Adding new categories </li> 
+    <li>Load font files from app's assets </li> 
 </ol> 
 
 #   License  
