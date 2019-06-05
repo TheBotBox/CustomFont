@@ -1,5 +1,5 @@
 # Fuente
-Library for using custom fonts divided into categories. 
+Library for using custom fonts based on font's categories. 
 
 ![alt tag](https://user-images.githubusercontent.com/41512314/45253740-155bda00-b38a-11e8-9889-8bf2b3e37509.png)
 
